@@ -1,0 +1,694 @@
+
+/* this is antonty's styles */
+#tonyHome {
+  display: grid;
+  justify-items: center;
+}
+
+#tonyHome > h1 {
+  font-size: 45px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  color: rgb(24, 23, 23);
+}
+#tonyHome > h3 {
+  font-size: 21px;
+  font-weight: 600;
+  margin-top: 8px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  color: rgb(24, 23, 23);
+}
+
+#freeCourses {
+  margin-top: 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 3%;
+  justify-content: center;
+  padding: 5%;
+}
+#freeCourses img {
+  width: 100%;
+  height: 55%;
+  border-radius: 10px;
+}
+#freeCourses h2,
+p,
+freeCourseButton {
+  padding-left: 15px;
+  padding-right: 15px;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.freeCourseButton {
+  color: rgb(10, 161, 231);
+  border: solid rgb(10, 161, 231) 1px;
+  background-color: white;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 10px;
+  margin-left: 15px;
+  height: 29px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.freeCourse {
+  height: 340px;
+  border-radius: 10px;
+  border: solid rgb(190, 190, 190) 1px;
+  position: relative;
+}
+
+#freeCourses h2 {
+  font-size: 19px;
+}
+
+#viewAllCoursesButtonDiv {
+  display: flex;
+  justify-content: center;
+}
+#viewAllCoursesButtonDiv button {
+  height: 65px;
+  align-items: center;
+  width: 35%;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+#bragBody {
+  background-color: rgb(239, 238, 240);
+  padding-top: 200px;
+}
+#braggingContainer {
+  display: grid;
+  grid-template:
+    "a a"
+    "b c"
+    "d e"
+    "f g";
+
+  justify-content: center;
+  /* grid-gap: 5%; */
+  width: 85%;
+  margin: auto;
+}
+
+#braggingContainer div {
+  height: 200px;
+}
+
+#braggingContainer h2 {
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(24, 23, 23);
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#braggingContainer h1 {
+  font-size: 70px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(24, 23, 23);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#braggingContainer h5 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(87, 86, 86);
+}
+#braggingContainer h6 {
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(87, 86, 86);
+}
+#brag1 {
+  grid-area: a;
+}
+#brag2 {
+  grid-area: b;
+}
+#brag3 {
+  grid-area: c;
+}
+#brag4 {
+  grid-area: d;
+}
+#brag5 {
+  grid-area: e;
+}
+#brag6 {
+  grid-area: f;
+}
+
+.horizontalForBrag {
+  height: 1px;
+  border-width: 0;
+  background-color: rgb(189, 181, 196);
+  width: 90%;
+  margin-left: 0;
+  margin-bottom: 25px;
+}
+
+
+.sheaddiv1 {
+  width: 40%;
+  margin-left: 25%;
+  height: 100px;
+}
+.sheaddiv2 {
+  display: flex;
+  flex-direction: row;
+  height: 1420px;
+}
+span.clear {
+  clear: left;
+  display: block;
+}
+.sheaddiv2buttonbox {
+  width: 43%;
+  height: 600px;
+
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0px;
+  left: 1%;
+}
+.cardmainbox {
+  width: 67%;
+  height: 1410px;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 10%;
+}
+.cardmainboxrow1 {
+  width: 100%;
+  height: 33%;
+
+  display: flex;
+  flex-direction: row;
+}
+.cardmainboxrow2 {
+  width: 100%;
+  height: 33%;
+
+  display: flex;
+  flex-direction: row;
+}
+.cardmainboxrow3 {
+  width: 100%;
+  height: 33%;
+
+  display: flex;
+  flex-direction: row;
+}
+.card1 {
+  height: 100%;
+  width: 45%;
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  border-radius: 6%;
+}
+
+.card1img {
+  width: 100%;
+  height: 130px;
+  border-radius: 5%;
+}
+.card1logo {
+  margin-left: 2%;
+  width: 30%;
+  height: 30px;
+}
+.card1college {
+  margin-left: 2%;
+}
+.courselogobox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+}
+.courselogoboximg {
+  width: 10%;
+  height: 100%;
+
+  margin-left: 3px;
+}
+.coursrlogoimg {
+  width: 100%;
+  height: 100%;
+}
+.courselogoboximgDec {
+  margin-left: 10px;
+
+  width: 80%;
+}
+.courselogobox2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+}
+.courselogoboximg2 {
+  width: 10%;
+  height: 100%;
+
+  margin-left: 3px;
+}
+.coursrlogoimg2 {
+  width: 100%;
+  height: 100%;
+}
+.courselogoboximgDec2 {
+  margin-left: 20px;
+}
+.last1 {
+  width: 80%;
+  border: solid 1px gray;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 10%;
+  color: red;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5%;
+}
+
+.card2 {
+  margin-top: 5px;
+  height: 98%;
+  width: 45%;
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  border-radius: 6%;
+}
+
+.last2 {
+  width: 80%;
+  border: solid 1px gray;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 10%;
+  color: red;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5%;
+}
+
+.card3 {
+  margin-top: 5px;
+  height: 100%;
+  width: 45%;
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  border-radius: 6%;
+}
+
+.last3 {
+  width: 80%;
+  border: solid 1px gray;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 10%;
+  color: red;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5%;
+}
+
+.sidebutton1 {
+  height: 40px;
+  width: 80%;
+  border: 1px solid gray;
+  margin-left: 15%;
+  border-radius: 8%;
+  justify-content: center;
+  color: white;
+}
+.sidebutton1text {
+  margin-top: 2.3%;
+  margin-left: 5%;
+  font-weight: 400;
+  font-weight: bold;
+  color: black;
+}
+.sidebutton1:hover {
+  background-color: tomato;
+}
+
+.footerbox {
+  width: 100%;
+  height: 600px;
+
+  background-color: #555454;
+  display: flex;
+  flex-direction: row;
+}
+.footerboxinside {
+  width: 25%;
+}
+.footertext1 {
+  color: rgb(214, 211, 211);
+  margin-left: 30px;
+}
+.footertext2 {
+  color: rgb(214, 211, 211);
+  margin-left: 30px;
+}
+#fh1{
+  margin-top: 20px; margin-left: 30px; color: white;
+}
+#fp1{
+  margin-top: 20px; margin-left: 25px; color: white;
+}
+#fi1{
+  margin-top: 40px;background-color: whitesmoke; color: rgb(44, 20, 228); margin-left: 20px;
+}
+#fi2{
+  margin-top: 40px;background-color: whitesmoke;color: #3e2ece; margin-left: 10px;
+}
+#fi3{
+   margin-top: 40px;background-color: whitesmoke;color: #b41111; margin-left: 10px;
+}
+#fp2{
+  margin-left: 30px; text-align: center;
+}
+#fh4{
+  margin-top: 20px; color: white;
+}
+#fd1{
+      display: flex; flex-direction: column;
+}
+#fd2{
+  width: 60%;
+       height: 25px; border: 1px solid white; margin-left: 20%; margin-top: 20%;
+        border-radius: 10px; text-align: center; color: whitesmoke;
+
+}
+#fd3{
+  width: 60%;
+               height: 25px; border: 1px solid white; margin-left: 20%; margin-top: 10%; 
+               border-radius: 10px; text-align: center; color: whitesmoke;
+
+}
+
+.sheaddiv1 {
+  width: 40%;
+  margin-left: 25%;
+  height: 100px;
+}
+.sheaddiv2 {
+  display: flex;
+  flex-direction: row;
+
+  height: 1420px;
+}
+.sheaddiv2buttonbox {
+  width: 33%;
+  height: 600px;
+
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}
+.cardmainbox {
+  width: 64%;
+  height: 1410px;
+
+  display: flex;
+  flex-direction: column;
+  margin-left: 34%;
+}
+.cardmainboxrow1 {
+  width: 100%;
+  height: 33%;
+
+  display: flex;
+  flex-direction: row;
+}
+.cardmainboxrow2 {
+  width: 100%;
+  height: 33%;
+
+  display: flex;
+  flex-direction: row;
+}
+.cardmainboxrow3 {
+  width: 100%;
+  height: 33%;
+
+  display: flex;
+  flex-direction: row;
+}
+.card1 {
+  height: 100%;
+  width: 45%;
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  border-radius: 6%;
+}
+
+.card1img {
+  width: 100%;
+  height: 130px;
+  border-radius: 5%;
+}
+.card1logo {
+  margin-left: 2%;
+  width: 30%;
+  height: 30px;
+}
+.card1college {
+  margin-left: 2%;
+}
+.courselogobox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+}
+.courselogoboximg {
+  width: 10%;
+  height: 100%;
+
+  margin-left: 3px;
+}
+.coursrlogoimg {
+  width: 100%;
+  height: 100%;
+}
+.courselogoboximgDec {
+  margin-left: 10px;
+
+  width: 80%;
+}
+.courselogobox2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+}
+.courselogoboximg2 {
+  width: 10%;
+  height: 100%;
+
+  margin-left: 3px;
+}
+.coursrlogoimg2 {
+  width: 100%;
+  height: 100%;
+}
+.courselogoboximgDec2 {
+  margin-left: 20px;
+}
+.last1 {
+  width: 80%;
+  border: solid 1px gray;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 10%;
+  color: red;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5%;
+}
+
+.card2 {
+  margin-top: 5px;
+  height: 98%;
+  width: 45%;
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  border-radius: 6%;
+}
+
+.last2 {
+  width: 80%;
+  border: solid 1px gray;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 10%;
+  color: red;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5%;
+}
+
+.card3 {
+  margin-top: 5px;
+  height: 100%;
+  width: 45%;
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  border-radius: 6%;
+}
+
+.last3 {
+  width: 80%;
+  border: solid 1px gray;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 10%;
+  color: red;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5%;
+}
+
+.sidebutton1 {
+  height: 40px;
+  width: 80%;
+  border: 1px solid gray;
+  margin-left: 15%;
+  border-radius: 8%;
+  justify-content: center;
+  color: white;
+}
+.sidebutton1text {
+  margin-top: 2.3%;
+  margin-left: 5%;
+  font-weight: 400;
+  font-weight: bold;
+  color: black;
+}
+.sidebutton1:hover {
+  background-color: tomato;
+}
+
+
+#heading {
+  text-align: center;
+}
+
+#slideshow img {
+  width: 200px;
+  height: 220px;
+
+  padding: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  background-color: rgb(235, 222, 222);
+  padding: 10px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  margin: 20px;
+  max-height: 20px;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  background-color: red;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 40px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  margin-left: 100px;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+#btnimg {
+  font-size: 30px;
+  border-radius: 10px;
+  position: relative;
+  left: 100px;
+  top: -300px;
+}
