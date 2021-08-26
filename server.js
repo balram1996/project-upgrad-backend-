@@ -4,7 +4,8 @@ const express = require("express");
 const connect = require("./configs/db");
 
 const userController = require("./controllers/user.controller");
-const courseController = require("./controllers/course.controller")
+const courseController = require("./controllers/course.controller");
+const applyAmritaController = require("./controllers/applyamrita.contoller")
 
 const app = express();
 
@@ -17,6 +18,8 @@ app.set("view engine", "ejs");  //views
 
 app.use("/users", userController);
 app.use("/users",courseController);
+app.use("/users",applyAmritaController);
+
 
 app.listen(5000, async () => {
   await connect();
