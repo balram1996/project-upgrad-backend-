@@ -12,5 +12,4 @@ module.exports = () => {
   );
 };
 
-
-// mongodb+srv://dhaval:kCTT7Jm5itRHucJ@cluster0.gtzsr.mongodb.net/render?retryWrites=true&w=majority? 
+//mongodb+srv://dhaval:kCTT7Jm5itRHucJ@cluster0.gtzsr.mongodb.net/render?retryWrites=true&w=majority? 

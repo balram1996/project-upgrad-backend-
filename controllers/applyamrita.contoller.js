@@ -6,7 +6,7 @@ const Applyamrita = require("../models/applyamrita.model");
 
 
 
-router.get("/applyamrita", function (req, res) {
+router.get("/users", function (req, res) {
   return res.render("products/applyamrita");
 });
 
