@@ -1,0 +1,302 @@
+.sheaddiv1 {
+  width: 40%;
+  margin-left: 25%;
+  height: 100px;
+ 
+ 
+}
+.sheaddiv1 >h1{
+  font-size: 45px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 100px;
+
+  color: rgb(24, 23, 23)
+}
+#courses_sectiona {
+  height: 145px;
+  
+   font-family: "Inter", sans-serif;
+}
+.sheaddiv2 {
+  display: flex;
+  flex-direction: row;
+  height: 1420px;
+}
+span.clear {
+  clear: left;
+  display: block;
+}
+.sheaddiv2buttonbox {
+  width: 43%;
+  height: 600px;
+
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0px;
+  left: 1%;
+}
+.cardmainbox {
+  width: 67%;
+  height: 1410px;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 10%;
+   font-family: 'Noto Sans JP', sans-serif;
+}
+.cardmainboxrow1 {
+  width: 100%;
+  height: 33%;
+
+  display: flex;
+  flex-direction: row;
+}
+.cardmainboxrow2 {
+  width: 100%;
+  height: 33%;
+
+  display: flex;
+  flex-direction: row;
+}
+.cardmainboxrow3 {
+  width: 100%;
+  height: 33%;
+
+  display: flex;
+  flex-direction: row;
+}
+.card1 {
+  height: 100%;
+  width: 45%;
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  border-radius: 6%;
+}
+
+.card1img {
+  width: 100%;
+  height: 130px;
+  border-radius: 5%;
+}
+.card1logo {
+  margin-left: 2%;
+  width: 30%;
+  height: 30px;
+}
+.card1college {
+  margin-left: 2%;
+}
+.courselogobox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+}
+.courselogoboximg {
+  width: 10%;
+  height: 100%;
+
+  margin-left: 3px;
+}
+.coursrlogoimg {
+  width: 100%;
+  height: 100%;
+}
+.courselogoboximgDec {
+  margin-left: 10px;
+
+  width: 80%;
+}
+.courselogobox2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+}
+.courselogoboximg2 {
+  width: 10%;
+  height: 100%;
+
+  margin-left: 3px;
+}
+.coursrlogoimg2 {
+  width: 100%;
+  height: 100%;
+}
+.courselogoboximgDec2 {
+  margin-left: 20px;
+}
+.last1 {
+  width: 80%;
+  border: solid 1px gray;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 10%;
+  color: red;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5%;
+}
+
+.card2 {
+  margin-top: 5px;
+  height: 98%;
+  width: 45%;
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  border-radius: 6%;
+}
+
+.last2 {
+  width: 80%;
+  border: solid 1px gray;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 10%;
+  color: red;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5%;
+}
+
+.card3 {
+  margin-top: 5px;
+  height: 100%;
+  width: 45%;
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  border-radius: 6%;
+}
+
+.last3 {
+  width: 80%;
+  border: solid 1px gray;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 10%;
+  color: red;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5%;
+}
+
+.sidebutton1 {
+  height: 40px;
+  width: 80%;
+  border: 1px solid gray;
+  margin-left: 15%;
+  border-radius: 2%;
+  justify-content: center;
+  color: white;
+}
+.sidebutton1 :hover{
+  cursor: pointer;
+}
+.sidebutton1text {
+  margin-top: 2.3%;
+  margin-left: 5%;
+  font-weight: 400;
+  font-weight: bold;
+  color: black;
+}
+.sidebutton1:hover {
+  background-color: tomato;
+}
+
+.footerbox {
+  width: 100%;
+  height: 600px;
+
+  background-color: #555454;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Heebo', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.footerboxinside {
+  width: 25%;
+}
+.footertext1 {
+  color: rgb(214, 211, 211);
+  margin-left: 30px;
+}
+.footertext2 {
+  color: rgb(214, 211, 211);
+  margin-left: 30px;
+}
+#fh1 {
+  margin-top: 20px;
+  margin-left: 30px;
+  color: white;
+}
+#fp1 {
+  margin-top: 20px;
+  margin-left: 25px;
+  color: white;
+}
+#fi1 {
+  margin-top: 40px;
+  background-color: whitesmoke;
+  color: rgb(44, 20, 228);
+  margin-left: 20px;
+}
+#fi2 {
+  margin-top: 40px;
+  background-color: whitesmoke;
+  color: #3e2ece;
+  margin-left: 10px;
+}
+#fi3 {
+  margin-top: 40px;
+  background-color: whitesmoke;
+  color: #b41111;
+  margin-left: 10px;
+}
+#fp2 {
+  margin-left: 30px;
+  text-align: center;
+}
+#fh4 {
+  margin-top: 20px;
+  color: white;
+}
+#fd1 {
+  display: flex;
+  flex-direction: column;
+}
+#fd2 {
+  width: 60%;
+  height: 25px;
+  border: 1px solid white;
+  margin-left: 20%;
+  margin-top: 20%;
+  border-radius: 10px;
+  text-align: center;
+  color: whitesmoke;
+}
+#fd3 {
+  width: 60%;
+  height: 25px;
+  border: 1px solid white;
+  margin-left: 20%;
+  margin-top: 10%;
+  border-radius: 10px;
+  text-align: center;
+  color: whitesmoke;
+}
+ #logoA{
+          
+margin-left: 150px;
+ 
+}
+           
