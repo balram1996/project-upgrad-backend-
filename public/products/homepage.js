@@ -34,3 +34,7 @@ function showSlides(n) {
 function changewind() {
   window.location.href = "project_Know_more.html";
 }
+
+function videopage(){
+  window.location.href = "videoPage.ejs"
+}

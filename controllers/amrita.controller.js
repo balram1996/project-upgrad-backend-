@@ -6,7 +6,7 @@ const Amritalogin = require("../models/amrita.model");
 
 
 
-router.get("/home", function (req, res) {
+router.get("/amrita", function (req, res) {
   return res.render("products/amrita");
 });
 

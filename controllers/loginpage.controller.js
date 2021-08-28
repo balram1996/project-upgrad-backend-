@@ -6,7 +6,7 @@ const Login = require("../models/loginpage.model");
 
 
 
-router.get("/home", function (req, res) {
+router.get("/login", function (req, res) {
   return res.render("products/loginpage");
 });
 

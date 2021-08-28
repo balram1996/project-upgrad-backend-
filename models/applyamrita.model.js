@@ -11,6 +11,6 @@ const applyAmritaSchema = new mongoose.Schema(
   }
 );
 
-const Applyamrita = mongoose.model("applyAmrita",applyAmritaSchema );
+const Applyamrita = mongoose.model("applyAmrita",applyAmritaSchema);
 
 module.exports = Applyamrita;
