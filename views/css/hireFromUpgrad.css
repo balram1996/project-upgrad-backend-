@@ -11,12 +11,14 @@
   flex-direction: row;
   height: 60px;
   margin: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .lefthead {
   width: 47%;
 }
 .righthead {
   width: 47%;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 #headlogo {
   color: red;
@@ -38,14 +40,16 @@
 
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO17RN7v4gRjMtnkuU2oYdNyVHibDVxcS5XQ&usqp=CAU);
   color: blue;
+  font-family: 'Source Sans Pro', sans-serif;
 
   background-repeat: no-repeat;
   background-size: cover;
   background-color: blue;
 }
 #justBelowHead1 {
-  margin-left: 250px;
+  margin-left: 300px;
   margin-top: 100px;
+  width: 50%;
  
 }
 #justBelowHead1P {
@@ -53,11 +57,22 @@
   font-size: 50px;
 }
 #justBelowHead1Button {
-  margin-left: 250px;
+  margin-left: 350px;
   margin-top: 20px;
-  width: 10%;
-  height: 30px;
+  width: 15%;
+  height: 50px;
   background-color: red;
+  border-radius: 2%;
+ 
+
+}
+#justBelowHead1Button:hover{
+ cursor: pointer;
+
+}
+#justBelowHead1ButtonA{
+  margin-left: 20%;
+
 }
 #b {
   justify-content: center;
@@ -86,11 +101,13 @@
   margin-top: 10%;
   font-style: italic;
   font-weight: lite;
+  font-family: 'Courgette', cursive;
 }
 #secondJustBelowHeadpara2 {
   margin-left: 20%;
   margin-top: 5%;
   font-weight: bolder;
+ 
 }
 #secondJustBelowHeadpara3 {
   margin-left: 60%;
