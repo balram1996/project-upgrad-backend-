@@ -12,7 +12,7 @@ const loginPageController = require("./controllers/loginpage.controller");
 const otpController = require("./controllers/otp.controller");
 const amritaloginController = require("./controllers/amrita.controller");
 const videoController = require("./controllers/course.controller");
-
+const Abroad = require("./controllers/abroad.controller")
 
 const app = express();
 
@@ -30,7 +30,7 @@ app.use("/users",otpController);
 app.use("/users",applyAmritaController);
 app.use("/users",amritaloginController);
 app.use("/users",videoController);
-
+app.use("/users",Abroad);
 
 
 app.listen(5000, async () => {
